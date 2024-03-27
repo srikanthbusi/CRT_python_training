@@ -10,10 +10,12 @@ if flag==1:
 else:
     print(" prime number")
 
-n = int(input("Enter an Number : "))
+# n = int(input("Enter an Number : "))
 
-for i in range (2,n/2):  
-    if(n%i==0):
-        print("Not a Prime Number")  
-        break
-print("Completed")
+# for i in range(2,n//2):  
+#     if(n%i==0):
+#         print('"Not a Prime Number"')  
+#         break
+#     else:
+#         print('Prime number"')
+# print("Completed")

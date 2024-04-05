@@ -4,7 +4,7 @@ def fact(n):
  else:
    return n*fact(n-1)
 
-print(fact(30))
+print("30!:",fact(30))
 
 # fibanocci series
 def fib(num):

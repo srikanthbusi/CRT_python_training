@@ -39,7 +39,7 @@ class car:
                 brand  = input()
                 if brand =="1"or brand.lower() =="toyota":
                        print("Thanks for choosing Toyota Company")
-                       car1.Model_toyota()
+                        Model_toyota()
                 elif brand =="2"or brand.lower()=="mahindra":
                        print("Thanks for choosing Mahindra Company")
                        car1.Model_Mahndra()
@@ -152,7 +152,6 @@ class car:
 
 
 
-car()
 car1 = car()
 car1.brands()
 # print(car1.display)

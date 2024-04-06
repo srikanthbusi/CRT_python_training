@@ -13,10 +13,17 @@ from Honda import *
 from Mahindra import *
 from Toyota import *
 
+
 class Showroom:
     def __init__(self):
-        self.model = None
-        self.variant = None
+        # self.model = None
+        # self.variant = None
+        # self.cgst="5%"
+        # self.cal_cgst=5/100
+        # self.sgst="12%"
+        # self.cal_sgst=12/100
+        # self.ins="50%"
+        # self.cal_ins=50/100
         print("###### --Welcome to BUSI's Car Showroom-- #########\nPlease select the car Company from the above:")
         print("\n1.Mahindra\n2.Honda\n3.Toyota")
 
@@ -34,13 +41,15 @@ class Showroom:
                 break
             else:
                 print("Invalid option!!!!!!!!\nPlease checkout the available companies from the above")
-                continue 
-
-
+                continue
+            
 cars = Showroom()
 cars.choose()
 
 
+
+# cars = Showroom()
+# cars.choose()
 
 # from Honda import *
 # from Mahindra import *
@@ -183,15 +192,16 @@ cars.choose()
     #             ("Sorry presently we are maintaing these two variants only")
     #             continue
 
-cars = Showroom()
-cars.choose()
-cars.display_chosen_car()  # Display the chosen car details
-cars.Toyota()
-cars.variant()
-cars.Mahindra()
-cars.variant()
-cars.Honda()
-cars.variant()
+
+# display()
+# cars.display_chosen_car()  # Display the chosen car details
+
+# cars.Toyota()
+# cars.variant()
+# cars.Mahindra()
+# cars.variant()
+# cars.Honda()
+# cars.variant()
 
 
 

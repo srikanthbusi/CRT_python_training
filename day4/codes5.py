@@ -33,13 +33,13 @@ class car:
         print("Welcome to/\ *BSK* /\Showroom")
         print("###############################")
         print("Please Choose your Car brands")
-    def brands(self):
+    def Carcompany(self):
                 print("###############################")
-                print("Choose from the above brands: \n1.Toyota\n2.Mahindra\n3.Mercedes ")
+                print("Choose from the above Companies: \n1.Toyota\n2.Mahindra\n3.Mercedes ")
                 brand  = input()
                 if brand =="1"or brand.lower() =="toyota":
                        print("Thanks for choosing Toyota Company")
-                        Model_toyota()
+                      Model_toyota()
                 elif brand =="2"or brand.lower()=="mahindra":
                        print("Thanks for choosing Mahindra Company")
                        car1.Model_Mahndra()
